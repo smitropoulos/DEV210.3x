@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D40E57B205E631A004E480E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E57A205E631A004E480E /* main.cpp */; };
+		7D40E586205EDF06004E480E /* customException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E584205EDF06004E480E /* customException.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7D40E577205E631A004E480E /* DEV210.3x */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DEV210.3x; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D40E57A205E631A004E480E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7D40E584205EDF06004E480E /* customException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = customException.cpp; sourceTree = "<group>"; };
+		7D40E585205EDF06004E480E /* customException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = customException.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7D40E57A205E631A004E480E /* main.cpp */,
+				7D40E584205EDF06004E480E /* customException.cpp */,
+				7D40E585205EDF06004E480E /* customException.hpp */,
 			);
 			path = DEV210.3x;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D40E586205EDF06004E480E /* customException.cpp in Sources */,
 				7D40E57B205E631A004E480E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
